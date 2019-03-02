@@ -1,2 +1,2 @@
 # rusty.designpatterns
-rusty programmer design patterns
+Repository of my design pattern codes found in my blog: [Rusty Programmer](https://fdtacata.wordpress.com/)
