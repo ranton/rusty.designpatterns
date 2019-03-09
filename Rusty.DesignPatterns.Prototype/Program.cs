@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Rusty.DesignPatterns.Prototype
@@ -28,21 +27,6 @@ namespace Rusty.DesignPatterns.Prototype
 
     }
 
-    public class DogCompound
-    {
-        private Dictionary<string, Dog> _dogs = new Dictionary<string, Dog>();
-        public Dog this[string name]
-        {
-            get => _dogs[name];
-            set => _dogs.Add(name, value);
-        }
-    }
-
-    public abstract class DogPrototype
-    {
-        public abstract DogPrototype Clone();
-    }
-
     //public class Dog : DogPrototype
     //{
     //    public int Age { get; set; }
@@ -65,34 +49,4 @@ namespace Rusty.DesignPatterns.Prototype
     //        return $"Breed: {this.Breed}, Age: {this.Age}";
     //    }
     //}
-
-    public interface IPrototype<T> where T : class
-    {
-        IPrototype<T> Clone();
-    }
-
-    public class Dog : IPrototype<Dog>
-    {
-        public string Breed { get; set; }
-        public int Age { get; set; }
-
-        public Dog(string breed, int age)
-        {
-            Breed = breed;
-            Age = age;
-        }
-
-        public IPrototype<Dog> Clone()
-        {
-            return this.MemberwiseClone() as Dog;
-        }
-
-        public override string ToString()
-        {
-            return $"Breed: {this.Breed}, Age: {this.Age}";
-        }
-    }
-
-
-
 }
