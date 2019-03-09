@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.AbstractFactory", "Rusty.DesignPatterns.AbstractFactory\Rusty.DesignPatterns.AbstractFactory.csproj", "{70F8C2E5-0268-4230-A78C-464D74658CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rusty.DesignPatterns.Builder", "Rusty.DesignPatterns.Builder\Rusty.DesignPatterns.Builder.csproj", "{F16BB592-5C0B-45B3-840A-1A79CF8D5638}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.Builder", "Rusty.DesignPatterns.Builder\Rusty.DesignPatterns.Builder.csproj", "{F16BB592-5C0B-45B3-840A-1A79CF8D5638}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rusty.DesignPatterns.FactoryMethod", "Rusty.DesignPatterns.FactoryMethod\Rusty.DesignPatterns.FactoryMethod.csproj", "{F475F57A-ECAC-4958-90B7-2D5B8A5DF156}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F16BB592-5C0B-45B3-840A-1A79CF8D5638}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16BB592-5C0B-45B3-840A-1A79CF8D5638}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16BB592-5C0B-45B3-840A-1A79CF8D5638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F475F57A-ECAC-4958-90B7-2D5B8A5DF156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F475F57A-ECAC-4958-90B7-2D5B8A5DF156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F475F57A-ECAC-4958-90B7-2D5B8A5DF156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F475F57A-ECAC-4958-90B7-2D5B8A5DF156}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
