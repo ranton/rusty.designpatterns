@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.Builde
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.FactoryMethod", "Rusty.DesignPatterns.FactoryMethod\Rusty.DesignPatterns.FactoryMethod.csproj", "{F475F57A-ECAC-4958-90B7-2D5B8A5DF156}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rusty.DesignPatterns.Prototype", "Rusty.DesignPatterns.Prototype\Rusty.DesignPatterns.Prototype.csproj", "{61CCF135-54FE-49ED-81C9-EEDF9A0734E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.Prototype", "Rusty.DesignPatterns.Prototype\Rusty.DesignPatterns.Prototype.csproj", "{61CCF135-54FE-49ED-81C9-EEDF9A0734E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rusty.DesignPatterns.Singleton", "Rusty.DesignPatterns.Singleton\Rusty.DesignPatterns.Singleton.csproj", "{C904C969-2F2E-4D5F-A276-664B06422D71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{61CCF135-54FE-49ED-81C9-EEDF9A0734E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61CCF135-54FE-49ED-81C9-EEDF9A0734E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61CCF135-54FE-49ED-81C9-EEDF9A0734E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C904C969-2F2E-4D5F-A276-664B06422D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C904C969-2F2E-4D5F-A276-664B06422D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C904C969-2F2E-4D5F-A276-664B06422D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C904C969-2F2E-4D5F-A276-664B06422D71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
