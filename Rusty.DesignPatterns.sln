@@ -11,7 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.Factor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.Prototype", "Rusty.DesignPatterns.Prototype\Rusty.DesignPatterns.Prototype.csproj", "{61CCF135-54FE-49ED-81C9-EEDF9A0734E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rusty.DesignPatterns.Singleton", "Rusty.DesignPatterns.Singleton\Rusty.DesignPatterns.Singleton.csproj", "{C904C969-2F2E-4D5F-A276-664B06422D71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.Singleton", "Rusty.DesignPatterns.Singleton\Rusty.DesignPatterns.Singleton.csproj", "{C904C969-2F2E-4D5F-A276-664B06422D71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{0AACA60C-C8EC-4E60-A954-55DAC06F006E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{BCECBF29-E693-4D6F-8727-97F2F08628A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural", "{A5FC1460-AC25-4563-9EFC-FF3B50732DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rusty.DesignPatterns.Bridge", "Rusty.DesignPatterns.Bridge\Rusty.DesignPatterns.Bridge.csproj", "{B3F91621-C58B-4FEF-9A40-F8F121179AAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +47,21 @@ Global
 		{C904C969-2F2E-4D5F-A276-664B06422D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C904C969-2F2E-4D5F-A276-664B06422D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C904C969-2F2E-4D5F-A276-664B06422D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F91621-C58B-4FEF-9A40-F8F121179AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F91621-C58B-4FEF-9A40-F8F121179AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F91621-C58B-4FEF-9A40-F8F121179AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F91621-C58B-4FEF-9A40-F8F121179AAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70F8C2E5-0268-4230-A78C-464D74658CD6} = {0AACA60C-C8EC-4E60-A954-55DAC06F006E}
+		{F16BB592-5C0B-45B3-840A-1A79CF8D5638} = {0AACA60C-C8EC-4E60-A954-55DAC06F006E}
+		{F475F57A-ECAC-4958-90B7-2D5B8A5DF156} = {0AACA60C-C8EC-4E60-A954-55DAC06F006E}
+		{61CCF135-54FE-49ED-81C9-EEDF9A0734E8} = {0AACA60C-C8EC-4E60-A954-55DAC06F006E}
+		{C904C969-2F2E-4D5F-A276-664B06422D71} = {0AACA60C-C8EC-4E60-A954-55DAC06F006E}
+		{B3F91621-C58B-4FEF-9A40-F8F121179AAC} = {BCECBF29-E693-4D6F-8727-97F2F08628A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76843755-72A6-415C-B0BB-AA07457AC382}
