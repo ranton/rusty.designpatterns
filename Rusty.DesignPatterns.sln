@@ -19,7 +19,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioural", "Behavioural", "{A5FC1460-AC25-4563-9EFC-FF3B50732DAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rusty.DesignPatterns.Bridge", "Rusty.DesignPatterns.Bridge\Rusty.DesignPatterns.Bridge.csproj", "{B3F91621-C58B-4FEF-9A40-F8F121179AAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rusty.DesignPatterns.Bridge", "Rusty.DesignPatterns.Bridge\Rusty.DesignPatterns.Bridge.csproj", "{B3F91621-C58B-4FEF-9A40-F8F121179AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rusty.DesignPatterns.Composite", "Rusty.DesignPatterns.Composite\Rusty.DesignPatterns.Composite.csproj", "{A79C28BF-500B-4094-8A6E-93E5697B4863}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B3F91621-C58B-4FEF-9A40-F8F121179AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3F91621-C58B-4FEF-9A40-F8F121179AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3F91621-C58B-4FEF-9A40-F8F121179AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79C28BF-500B-4094-8A6E-93E5697B4863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79C28BF-500B-4094-8A6E-93E5697B4863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79C28BF-500B-4094-8A6E-93E5697B4863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79C28BF-500B-4094-8A6E-93E5697B4863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{61CCF135-54FE-49ED-81C9-EEDF9A0734E8} = {0AACA60C-C8EC-4E60-A954-55DAC06F006E}
 		{C904C969-2F2E-4D5F-A276-664B06422D71} = {0AACA60C-C8EC-4E60-A954-55DAC06F006E}
 		{B3F91621-C58B-4FEF-9A40-F8F121179AAC} = {BCECBF29-E693-4D6F-8727-97F2F08628A7}
+		{A79C28BF-500B-4094-8A6E-93E5697B4863} = {BCECBF29-E693-4D6F-8727-97F2F08628A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76843755-72A6-415C-B0BB-AA07457AC382}
